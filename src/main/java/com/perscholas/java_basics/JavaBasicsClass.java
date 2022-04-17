@@ -9,6 +9,7 @@ public class JavaBasicsClass {
 		prob4();
 		prob5();
 		prob6();
+		prob7();
 	}
 
 	public static void prob1() {
@@ -56,6 +57,12 @@ public class JavaBasicsClass {
 		double y = 6;
 		double q = y / x;
 		System.out.println(q);
+	}
+
+	public static void prob7() {
+		final double pi = 3.14;
+		double area = 4 * 4 * pi;
+		System.out.println(area);
 	}
 
 }
