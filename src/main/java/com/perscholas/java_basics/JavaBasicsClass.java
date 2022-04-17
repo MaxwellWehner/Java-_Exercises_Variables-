@@ -10,6 +10,7 @@ public class JavaBasicsClass {
 		prob5();
 		prob6();
 		prob7();
+		prob8();
 	}
 
 	public static void prob1() {
@@ -63,6 +64,16 @@ public class JavaBasicsClass {
 		final double pi = 3.14;
 		double area = 4 * 4 * pi;
 		System.out.println(area);
+	}
+
+	public static void prob8() {
+		double coffee = 5.99;
+		double espresso = 7.49;
+		double greenTea = 6.35;
+		double subTotal = 3 * coffee + espresso * 4 + greenTea * 2;
+		final double SALES_TAX = .12;
+		double totalSale = subTotal * SALES_TAX + subTotal;
+		System.out.format("%.2f%n", totalSale);
 	}
 
 }
