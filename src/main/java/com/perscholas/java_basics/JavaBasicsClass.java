@@ -7,6 +7,7 @@ public class JavaBasicsClass {
 		prob2();
 		prob3();
 		prob4();
+		prob5();
 	}
 	
 	public static void prob1() {
@@ -34,10 +35,18 @@ public class JavaBasicsClass {
 	public static void prob4() {
 		double a = 5;
 		int b = 3;
-		double sum = a / b;
-		System.out.println(sum);
-		//If sum is an int it will do int division and return a whole number
-		//when a was changed to a dec sum also needed to be changes to dec and then division was possible with decimals
+		double ans = a / b;
+		System.out.println(ans);
+		//If ans is an int it will do int division and return a whole number
+		//when a was changed to a dec ans also needed to be changes to dec and then division was possible with decimals
+	}
+	
+	public static void prob5() {
+		double a = 99.5;
+		double b = 45.4;
+		double ans = a / b;
+		System.out.println(ans);
+		System.out.println((int)ans);
 	}
 
 }
