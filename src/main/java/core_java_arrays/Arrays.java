@@ -5,7 +5,8 @@ public class Arrays {
 	public static void main(String args[]) {
 //		prob1();
 //		prob2();
-		prob3();
+//		prob3();
+		prob4();
 	}
 
 	static void prob1() {
@@ -25,5 +26,13 @@ public class Arrays {
 		System.out.println(strs.length);
 		String copy[] = strs.clone();
 		System.out.println(java.util.Arrays.toString(copy));
+	}
+
+	static void prob4() {
+		int nums[] = { 1, 2, 3, 4, 5 };
+		System.out.println(nums[0]);
+		System.out.println(nums[nums.length - 1]);
+//		System.out.println(nums[nums.length]); error
+//		nums[5] = 6; error
 	}
 }
