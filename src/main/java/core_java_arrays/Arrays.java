@@ -7,6 +7,7 @@ public class Arrays {
 //		prob2();
 //		prob3();
 		prob4();
+		prob5();
 	}
 
 	static void prob1() {
@@ -34,5 +35,12 @@ public class Arrays {
 		System.out.println(nums[nums.length - 1]);
 //		System.out.println(nums[nums.length]); error
 //		nums[5] = 6; error
+	}
+
+	static void prob5() {
+		int nums[] = new int[5];
+		for (int i = 0; i < nums.length; i++) {
+			nums[i] = i;
+		}
 	}
 }
