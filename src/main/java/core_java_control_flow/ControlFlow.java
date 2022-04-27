@@ -6,22 +6,23 @@ public class ControlFlow {
 
 	public static void main(String[] args) {
 		// problem 1
-//		prob1(7);
-//		prob1(15);
+		prob1(7);
+		prob1(15);
 
 		// problem 2
-//		prob2(7);
-//		prob2(15);
+		prob2(7);
+		prob2(15);
 
 		// problem 3
-//		prob3(15);
-//		prob3(50);
+		prob3(15);
+		prob3(50);
 
 		// problem 4
-//		prob4(15);
-//		prob4(5);
+		prob4(15);
+		prob4(5);
 
 		prob5();
+		prob6();
 	}
 
 	static void prob1(int x) {
