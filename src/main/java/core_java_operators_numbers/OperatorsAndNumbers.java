@@ -10,8 +10,14 @@ public class OperatorsAndNumbers {
 		// d) 1001110
 		// e) 1100010011
 		// f) 1000010011000011
-		
-		
+
+		// problem 2
+		// a) 2
+		// b) 9
+		// c) 52
+		// d) 114
+		// e) 543
+		// f) 11367
 
 	}
 
