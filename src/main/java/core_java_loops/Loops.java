@@ -5,6 +5,7 @@ public class Loops {
 	public static void main(String[] args) {
 		prob1();
 		prob2();
+		prob3();
 	}
 
 	static void prob1() {
@@ -12,10 +13,18 @@ public class Loops {
 			System.out.println(i);
 		}
 	}
-	
+
 	static void prob2() {
-		for(int i = 0; i < 110; i+=10) {
+		for (int i = 0; i < 110; i += 10) {
 			System.out.println(i);
 		}
+	}
+
+	static void prob3() {
+		int i = 1;
+		do {
+			System.out.println(i);
+			i++;
+		} while (i < 11);
 	}
 }
