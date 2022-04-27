@@ -8,6 +8,7 @@ public class Arrays {
 //		prob3();
 		prob4();
 		prob5();
+		prob6();
 	}
 
 	static void prob1() {
@@ -41,6 +42,13 @@ public class Arrays {
 		int nums[] = new int[5];
 		for (int i = 0; i < nums.length; i++) {
 			nums[i] = i;
+		}
+	}
+
+	static void prob6() {
+		int nums[] = new int[5];
+		for (int i = 0; i < nums.length; i++) {
+			nums[i] = i * 2;
 		}
 	}
 }
