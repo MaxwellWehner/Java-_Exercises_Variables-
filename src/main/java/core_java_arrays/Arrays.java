@@ -6,9 +6,10 @@ public class Arrays {
 //		prob1();
 //		prob2();
 //		prob3();
-		prob4();
-		prob5();
-		prob6();
+//		prob4();
+//		prob5();
+//		prob6();
+		prob7();
 	}
 
 	static void prob1() {
@@ -49,6 +50,15 @@ public class Arrays {
 		int nums[] = new int[5];
 		for (int i = 0; i < nums.length; i++) {
 			nums[i] = i * 2;
+		}
+	}
+
+	static void prob7() {
+		int nums[] = { 1, 2, 3, 4, 5 };
+		for (int i = 0; i < nums.length; i++) {
+			if (i != (int) Math.floor(nums.length / 2)) {
+				System.out.println(nums[i]);
+			}
 		}
 	}
 }
