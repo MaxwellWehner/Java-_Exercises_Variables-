@@ -9,7 +9,8 @@ public class Arrays {
 //		prob4();
 //		prob5();
 //		prob6();
-		prob7();
+//		prob7();
+		prob8();
 	}
 
 	static void prob1() {
@@ -60,5 +61,14 @@ public class Arrays {
 				System.out.println(nums[i]);
 			}
 		}
+	}
+
+	static void prob8() {
+		String strs[] = { "red", "green", "blue", "yellow", "orange" };
+		int midIdx = (int) Math.floor(strs.length / 2);
+		String temp = strs[midIdx];
+		strs[midIdx] = strs[0];
+		strs[0] = temp;
+		System.out.println(java.util.Arrays.toString(strs));
 	}
 }
