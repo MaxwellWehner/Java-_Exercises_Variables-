@@ -9,7 +9,8 @@ public class Loops {
 //		prob4();
 //		prob5();
 //		prob6();
-		prob7();
+//		prob7();
+		prob8();
 	}
 
 	static void prob1() {
@@ -77,6 +78,19 @@ public class Loops {
 		    if( i == reverse) {
 		    	System.out.println(i);
 		    }
+		}
+	}
+	
+	static void prob8() {
+		int one = 0;
+		int two = 1;
+		System.out.println(one);
+		System.out.println(two);
+		for(int i = 0; i < 8; i++) {
+			int curr = one + two;
+			one = two;
+			two = curr;
+			System.out.println(curr);
 		}
 	}
 }
