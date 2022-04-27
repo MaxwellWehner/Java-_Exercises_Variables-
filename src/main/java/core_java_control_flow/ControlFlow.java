@@ -12,8 +12,12 @@ public class ControlFlow {
 //		prob2(15);
 
 		// problem 3
-		prob3(15);
-		prob3(50);
+//		prob3(15);
+//		prob3(50);
+		
+		//problem 4
+		prob4(15);
+		prob4(5);
 	}
 
 	static void prob1(int x) {
@@ -37,6 +41,14 @@ public class ControlFlow {
 			System.out.println("Between 10 and 20");
 		} else if (x >= 20) {
 			System.out.println("Greater than or equal to 20");
+		}
+	}
+	
+	static void prob4(int x) {
+		if(x < 10 || x > 20) {
+			System.out.println("Out of range");
+		}else if(x >= 10 && x <= 20) {
+			System.out.println("In range");
 		}
 	}
 }
