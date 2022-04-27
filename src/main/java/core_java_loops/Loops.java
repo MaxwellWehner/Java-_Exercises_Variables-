@@ -7,7 +7,8 @@ public class Loops {
 //		prob2();
 //		prob3();
 //		prob4();
-		prob5();
+//		prob5();
+		prob6();
 	}
 
 	static void prob1() {
@@ -48,6 +49,15 @@ public class Loops {
 			}
 			if(i > 50) {
 				break;
+			}
+		}
+	}
+	
+	static void prob6() {
+		for(int i = 0; i < 2; i++) {
+			System.out.println("Week " + (i + 1) + ":");
+			for(int j = 1; j < 6; j++) {
+				System.out.println("Day " + j);
 			}
 		}
 	}
