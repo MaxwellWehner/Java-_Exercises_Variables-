@@ -3,14 +3,15 @@ package core_java_loops;
 public class Loops {
 
 	public static void main(String[] args) {
-//		prob1();
-//		prob2();
-//		prob3();
-//		prob4();
-//		prob5();
-//		prob6();
-//		prob7();
+		prob1();
+		prob2();
+		prob3();
+		prob4();
+		prob5();
+		prob6();
+		prob7();
 		prob8();
+		prob9();
 	}
 
 	static void prob1() {
@@ -32,65 +33,73 @@ public class Loops {
 			i++;
 		} while (i < 11);
 	}
-	
+
 	static void prob4() {
-		for(int i = 1; i < 101; i++) {
-			if(i > 25 && i < 75) {
+		for (int i = 1; i < 101; i++) {
+			if (i > 25 && i < 75) {
 				continue;
 			}
-			if(i % 5 == 0) {
+			if (i % 5 == 0) {
 				System.out.println(i);
 			}
 		}
 	}
-	
+
 	static void prob5() {
-		for(int i = 1; i < 101; i++) {
-			if(i % 5 == 0) {
+		for (int i = 1; i < 101; i++) {
+			if (i % 5 == 0) {
 				System.out.println(i);
 			}
-			if(i > 50) {
+			if (i > 50) {
 				break;
 			}
 		}
 	}
-	
+
 	static void prob6() {
-		for(int i = 0; i < 2; i++) {
+		for (int i = 0; i < 2; i++) {
 			System.out.println("Week " + (i + 1) + ":");
-			for(int j = 1; j < 6; j++) {
+			for (int j = 1; j < 6; j++) {
 				System.out.println("Day " + j);
 			}
 		}
 	}
-	
+
 	static void prob7() {
-		for(int i = 10; i < 200; i++) {
-		    int palindrome = i;
-		    int reverse = 0;
+		for (int i = 10; i < 200; i++) {
+			int palindrome = i;
+			int reverse = 0;
 
-		    while (palindrome != 0) {
-		        int remainder = palindrome % 10;
-		        reverse = reverse * 10 + remainder;
-		        palindrome = palindrome / 10;
-		    }
+			while (palindrome != 0) {
+				int remainder = palindrome % 10;
+				reverse = reverse * 10 + remainder;
+				palindrome = palindrome / 10;
+			}
 
-		    if( i == reverse) {
-		    	System.out.println(i);
-		    }
+			if (i == reverse) {
+				System.out.println(i);
+			}
 		}
 	}
-	
+
 	static void prob8() {
 		int one = 0;
 		int two = 1;
 		System.out.println(one);
 		System.out.println(two);
-		for(int i = 0; i < 8; i++) {
+		for (int i = 0; i < 8; i++) {
 			int curr = one + two;
 			one = two;
 			two = curr;
 			System.out.println(curr);
+		}
+	}
+
+	static void prob9() {
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; j < 10; j++) {
+				System.out.println("Inner loop: i: " + i + ", j: " + j);
+			}
 		}
 	}
 }
