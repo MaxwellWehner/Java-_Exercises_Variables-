@@ -20,16 +20,29 @@ public class OperatorsAndNumbers {
 		// f) 11367
 		
 		//problem 3
-		prob3(2);
-		prob3(9);
-		prob3(17);
-		prob3(88);
+//		prob3(2);
+//		prob3(9);
+//		prob3(17);
+//		prob3(88);
+		
+		//problem 4
+		prob4(150);
+		prob4(225);
+		prob4(1555);
+		prob4(32456);
 	}
 	
 	static void prob3(int x) {
 		System.out.println(Integer.toBinaryString(x));
 		x = x << 1;
-		//mutiplys the num i by 2
+		//Multiples the num i by 2
+		System.out.println(x);
+		System.out.println(Integer.toBinaryString(x));
+	}
+	
+	static void prob4(int x) {
+		System.out.println(Integer.toBinaryString(x));
+		x = x >> 2;
 		System.out.println(x);
 		System.out.println(Integer.toBinaryString(x));
 	}
