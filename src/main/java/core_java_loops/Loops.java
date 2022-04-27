@@ -3,10 +3,11 @@ package core_java_loops;
 public class Loops {
 
 	public static void main(String[] args) {
-		prob1();
-		prob2();
-		prob3();
-		prob4();
+//		prob1();
+//		prob2();
+//		prob3();
+//		prob4();
+		prob5();
 	}
 
 	static void prob1() {
@@ -36,6 +37,17 @@ public class Loops {
 			}
 			if(i % 5 == 0) {
 				System.out.println(i);
+			}
+		}
+	}
+	
+	static void prob5() {
+		for(int i = 1; i < 101; i++) {
+			if(i % 5 == 0) {
+				System.out.println(i);
+			}
+			if(i > 50) {
+				break;
 			}
 		}
 	}
