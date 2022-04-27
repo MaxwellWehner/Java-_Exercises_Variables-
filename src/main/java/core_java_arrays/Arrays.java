@@ -10,7 +10,8 @@ public class Arrays {
 //		prob5();
 //		prob6();
 //		prob7();
-		prob8();
+//		prob8();
+		prob9();
 	}
 
 	static void prob1() {
@@ -70,5 +71,12 @@ public class Arrays {
 		strs[midIdx] = strs[0];
 		strs[0] = temp;
 		System.out.println(java.util.Arrays.toString(strs));
+	}
+
+	static void prob9() {
+		int nums[] = { 4, 2, 9, 13, 1, 0 };
+		java.util.Arrays.sort(nums);
+		System.out.println(nums[0]);
+		System.out.println(nums[nums.length - 1]);
 	}
 }
