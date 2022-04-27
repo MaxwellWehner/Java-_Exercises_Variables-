@@ -32,7 +32,8 @@ public class OperatorsAndNumbers {
 //		prob4(32456);
 		
 //		prob5();
-		prob6();
+//		prob6();
+		prob7();
 	}
 	
 	static void prob3(int x) {
@@ -67,6 +68,17 @@ public class OperatorsAndNumbers {
 		int x = 5;
 		System.out.println(x);
 		x++;
+		System.out.println(x);
+	}
+	
+	static void prob7() {
+		int x = 1;
+		System.out.println(x);
+		x += 1;
+		System.out.println(x);
+		x++;
+		System.out.println(x);
+		++x;
 		System.out.println(x);
 	}
 
