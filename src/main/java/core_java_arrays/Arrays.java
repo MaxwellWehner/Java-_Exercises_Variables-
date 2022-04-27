@@ -3,15 +3,16 @@ package core_java_arrays;
 public class Arrays {
 
 	public static void main(String args[]) {
-//		prob1();
-//		prob2();
-//		prob3();
-//		prob4();
-//		prob5();
-//		prob6();
-//		prob7();
-//		prob8();
+		prob1();
+		prob2();
+		prob3();
+		prob4();
+		prob5();
+		prob6();
+		prob7();
+		prob8();
 		prob9();
+		prob10();
 	}
 
 	static void prob1() {
@@ -78,5 +79,19 @@ public class Arrays {
 		java.util.Arrays.sort(nums);
 		System.out.println(nums[0]);
 		System.out.println(nums[nums.length - 1]);
+	}
+
+	static void prob10() {
+		Object[] arr = new Object[5];
+		Integer num = 3;
+		Double dec = 2.67;
+
+		arr[0] = new String("First Pair");
+		arr[1] = num;
+		arr[2] = new String("Second Pair");
+		arr[3] = dec;
+		arr[4] = new String("Third Pair");
+
+		System.out.println(java.util.Arrays.toString(arr));
 	}
 }
