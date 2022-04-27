@@ -31,7 +31,8 @@ public class OperatorsAndNumbers {
 //		prob4(1555);
 //		prob4(32456);
 		
-		prob5();
+//		prob5();
+		prob6();
 	}
 	
 	static void prob3(int x) {
@@ -60,6 +61,13 @@ public class OperatorsAndNumbers {
 		z = x | y;
 		System.out.println(z);
 		System.out.println(Integer.toBinaryString(z));
+	}
+	
+	static void prob6() {
+		int x = 5;
+		System.out.println(x);
+		x++;
+		System.out.println(x);
 	}
 
 }
