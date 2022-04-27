@@ -18,7 +18,20 @@ public class OperatorsAndNumbers {
 		// d) 114
 		// e) 543
 		// f) 11367
-
+		
+		//problem 3
+		prob3(2);
+		prob3(9);
+		prob3(17);
+		prob3(88);
+	}
+	
+	static void prob3(int x) {
+		System.out.println(Integer.toBinaryString(x));
+		x = x << 1;
+		//mutiplys the num i by 2
+		System.out.println(x);
+		System.out.println(Integer.toBinaryString(x));
 	}
 
 }
