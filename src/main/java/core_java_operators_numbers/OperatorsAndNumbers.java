@@ -26,10 +26,12 @@ public class OperatorsAndNumbers {
 //		prob3(88);
 		
 		//problem 4
-		prob4(150);
-		prob4(225);
-		prob4(1555);
-		prob4(32456);
+//		prob4(150);
+//		prob4(225);
+//		prob4(1555);
+//		prob4(32456);
+		
+		prob5();
 	}
 	
 	static void prob3(int x) {
@@ -45,6 +47,19 @@ public class OperatorsAndNumbers {
 		x = x >> 2;
 		System.out.println(x);
 		System.out.println(Integer.toBinaryString(x));
+	}
+	
+	static void prob5() {
+		int x = 7;
+		int y = 17;
+		int z;
+		
+		z = x & y;
+		System.out.println(z);
+		System.out.println(Integer.toBinaryString(z));
+		z = x | y;
+		System.out.println(z);
+		System.out.println(Integer.toBinaryString(z));
 	}
 
 }
