@@ -20,4 +20,9 @@ public class Employee {
 		double salary = basicSalary + (basicSalary * specialAllowance / 100) + (basicSalary * hra / 100);
 		System.out.println(salary);
 	}
+
+	public void calculateTransportAllowance() {
+		double transportAllowance = .1 * basicSalary;
+		System.out.println(transportAllowance);
+	}
 }

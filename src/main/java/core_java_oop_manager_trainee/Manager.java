@@ -7,4 +7,9 @@ public class Manager extends Employee {
 		this.basicSalary = salary;
 	}
 
+	@Override
+	public void calculateTransportAllowance() {
+		double transportAllowance = .15 * basicSalary;
+		System.out.println(transportAllowance);
+	}
 }
