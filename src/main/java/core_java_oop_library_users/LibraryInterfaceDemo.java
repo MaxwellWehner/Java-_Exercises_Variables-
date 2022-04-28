@@ -10,6 +10,14 @@ public class LibraryInterfaceDemo {
 		LibraryUser kid2 = new KidUser(18, "Fiction");
 		kid2.registerAccount();
 		kid2.requestBook();
+		
+		LibraryUser adult1 = new AdultUser(5, "Kids");
+		adult1.registerAccount();
+		adult1.requestBook();
+
+		LibraryUser adult2 = new AdultUser(23, "Fiction");
+		adult2.registerAccount();
+		adult2.requestBook();
 
 	}
 
