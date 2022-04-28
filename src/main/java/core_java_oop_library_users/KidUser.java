@@ -1,10 +1,10 @@
 package core_java_oop_library_users;
 
-public class KidUsers implements LibraryUser {
+public class KidUser implements LibraryUser {
 	int age;
 	String bookType;
 
-	public KidUsers(int age, String bookType) {
+	public KidUser(int age, String bookType) {
 		super();
 		this.age = age;
 		this.bookType = bookType;
