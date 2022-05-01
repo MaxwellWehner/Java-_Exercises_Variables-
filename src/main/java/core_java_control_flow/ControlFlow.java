@@ -107,5 +107,6 @@ public class ControlFlow {
 		}else {
 			System.out.println("Out of range");
 		}
+		input.close();
 	}
 }
