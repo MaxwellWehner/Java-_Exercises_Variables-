@@ -1,10 +1,14 @@
 package software_developer_club_project;
 
 public class ClubMember {
-	String name;
-	String city;
-	String state;
-	String favLang;
+	private String name;
+	private String city;
+	private String state;
+	private String favLang;
+	
+	public ClubMember() {
+		
+	};
 
 	public ClubMember(String name, String city, String state, String favLang) {
 		this.name = name;

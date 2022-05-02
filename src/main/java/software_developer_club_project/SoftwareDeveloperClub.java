@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class SoftwareDeveloperClub {
-	ArrayList<ClubMember> clubMembersList = new ArrayList<>();
+	private ArrayList<ClubMember> clubMembersList = new ArrayList<>();
 
 	public SoftwareDeveloperClub() {
 		try {
@@ -31,6 +31,19 @@ public class SoftwareDeveloperClub {
 			System.out.format("Member Name: %s\n", cm.getName());
 			System.out.format("Location: %s\n", cm.getLocation());
 			System.out.format("Favorite Language: %s\n\n", cm.getFavLang());
+		}
+	}
+	
+	public void addMember(ClubMember memToAdd) {
+		clubMembersList.add(memToAdd);
+	}
+	
+	public void removeMember(String memberName) {
+		for(int i = 0; i < clubMembersList.size(); i++) {
+			if(clubMembersList.get(i).getName().equals(memberName)) {
+				clubMembersList.remove(i);
+				break;
+			}
 		}
 	}
 }
